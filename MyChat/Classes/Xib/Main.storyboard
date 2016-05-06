@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="-568" y="-304"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Conversation-->
         <scene sceneID="h14-Tt-D3W">
             <objects>
-                <tableViewController id="6i4-7x-qQI" sceneMemberID="viewController">
+                <tableViewController id="6i4-7x-qQI" userLabel="Conversation" customClass="JSConversationViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="lbM-dp-JO4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

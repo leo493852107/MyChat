@@ -16,6 +16,7 @@
 		B3CC214D1CDC8CC200A41E56 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC21481CDC8CC200A41E56 /* Login.storyboard */; };
 		B3CC214E1CDC8CC200A41E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC21491CDC8CC200A41E56 /* Main.storyboard */; };
 		B3CC21511CDC8CF100A41E56 /* JSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21501CDC8CF100A41E56 /* JSLoginViewController.m */; };
+		B3CC21551CDCA7A000A41E56 /* JSConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21541CDCA7A000A41E56 /* JSConversationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		B3CC21491CDC8CC200A41E56 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B3CC214F1CDC8CF100A41E56 /* JSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLoginViewController.h; sourceTree = "<group>"; };
 		B3CC21501CDC8CF100A41E56 /* JSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLoginViewController.m; sourceTree = "<group>"; };
+		B3CC21531CDCA7A000A41E56 /* JSConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConversationViewController.h; sourceTree = "<group>"; };
+		B3CC21541CDCA7A000A41E56 /* JSConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSConversationViewController.m; sourceTree = "<group>"; };
 		FDD25BA05892E5C8F1DB961D /* libPods-MyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +92,7 @@
 		B3CC213F1CDC8CC200A41E56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B3CC21521CDCA78300A41E56 /* Conversation */,
 				B3CC21401CDC8CC200A41E56 /* Controller */,
 				B3CC21411CDC8CC200A41E56 /* Other */,
 				B3CC21461CDC8CC200A41E56 /* Xib */,
@@ -124,6 +128,15 @@
 				B3CC21491CDC8CC200A41E56 /* Main.storyboard */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		B3CC21521CDCA78300A41E56 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC21531CDCA7A000A41E56 /* JSConversationViewController.h */,
+				B3CC21541CDCA7A000A41E56 /* JSConversationViewController.m */,
+			);
+			path = Conversation;
 			sourceTree = "<group>";
 		};
 		D73076E4112605C8E9090DAC /* Frameworks */ = {
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CC21551CDCA7A000A41E56 /* JSConversationViewController.m in Sources */,
 				B3CC214B1CDC8CC200A41E56 /* ViewController.m in Sources */,
 				B3CC214A1CDC8CC200A41E56 /* AppDelegate.m in Sources */,
 				B3CC21231CDC841500A41E56 /* main.m in Sources */,
