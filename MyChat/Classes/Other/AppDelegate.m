@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EMSDK.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //AppKey:注册的appKey，详细见下面注释。
+    //apnsCertName:推送证书名(不需要加后缀)，详细见下面注释。
+    EMOptions *options = [EMOptions optionsWithAppkey:@"zjnucloud#test"];
+//    options.apnsCertName = @"istore_dev";
+    [[EMClient sharedClient] initializeSDKWithOptions:options];
+    
+    // 如果登录过，直接来到主界面
+    if ([[EMClient sharedClient].options isAutoLogin]) {
+        self.window.rootViewController = [UIStoryboard storyboardWithName:@"Main" bundle:nil].instantiateInitialViewController;
+    }
+    
     return YES;
 }
 

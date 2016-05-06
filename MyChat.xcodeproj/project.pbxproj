@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		7006A928D77C7AB03031E1BE /* libPods-MyChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD25BA05892E5C8F1DB961D /* libPods-MyChat.a */; };
 		B3CC21231CDC841500A41E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21221CDC841500A41E56 /* main.m */; };
-		B3CC21291CDC841500A41E56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21281CDC841500A41E56 /* ViewController.m */; };
-		B3CC212C1CDC841500A41E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC212A1CDC841500A41E56 /* Main.storyboard */; };
 		B3CC212E1CDC841500A41E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CC212D1CDC841500A41E56 /* Assets.xcassets */; };
-		B3CC21311CDC841500A41E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC212F1CDC841500A41E56 /* LaunchScreen.storyboard */; };
-		B3CC213C1CDC845500A41E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC213A1CDC845500A41E56 /* AppDelegate.m */; };
+		B3CC214A1CDC8CC200A41E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21431CDC8CC200A41E56 /* AppDelegate.m */; };
+		B3CC214B1CDC8CC200A41E56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21451CDC8CC200A41E56 /* ViewController.m */; };
+		B3CC214C1CDC8CC200A41E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC21471CDC8CC200A41E56 /* LaunchScreen.storyboard */; };
+		B3CC214D1CDC8CC200A41E56 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC21481CDC8CC200A41E56 /* Login.storyboard */; };
+		B3CC214E1CDC8CC200A41E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CC21491CDC8CC200A41E56 /* Main.storyboard */; };
+		B3CC21511CDC8CF100A41E56 /* JSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC21501CDC8CF100A41E56 /* JSLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		408690110AC5D41698188968 /* Pods-MyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyChat/Pods-MyChat.release.xcconfig"; sourceTree = "<group>"; };
 		B3CC211E1CDC841500A41E56 /* MyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CC21221CDC841500A41E56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3CC21271CDC841500A41E56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B3CC21281CDC841500A41E56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B3CC212B1CDC841500A41E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3CC212D1CDC841500A41E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3CC21301CDC841500A41E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3CC21321CDC841500A41E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3CC21391CDC845500A41E56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B3CC213A1CDC845500A41E56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3CC21421CDC8CC200A41E56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3CC21431CDC8CC200A41E56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3CC21441CDC8CC200A41E56 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3CC21451CDC8CC200A41E56 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3CC21471CDC8CC200A41E56 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3CC21481CDC8CC200A41E56 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B3CC21491CDC8CC200A41E56 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B3CC214F1CDC8CF100A41E56 /* JSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLoginViewController.h; sourceTree = "<group>"; };
+		B3CC21501CDC8CF100A41E56 /* JSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLoginViewController.m; sourceTree = "<group>"; };
 		FDD25BA05892E5C8F1DB961D /* libPods-MyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,10 +70,7 @@
 		B3CC21201CDC841500A41E56 /* MyChat */ = {
 			isa = PBXGroup;
 			children = (
-				B3CC21381CDC845500A41E56 /* Other */,
-				B3CC213B1CDC845500A41E56 /* Xib */,
-				B3CC21271CDC841500A41E56 /* ViewController.h */,
-				B3CC21281CDC841500A41E56 /* ViewController.m */,
+				B3CC213F1CDC8CC200A41E56 /* Classes */,
 				B3CC212D1CDC841500A41E56 /* Assets.xcassets */,
 				B3CC21321CDC841500A41E56 /* Info.plist */,
 				B3CC21211CDC841500A41E56 /* Supporting Files */,
@@ -84,20 +86,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B3CC21381CDC845500A41E56 /* Other */ = {
+		B3CC213F1CDC8CC200A41E56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B3CC21391CDC845500A41E56 /* AppDelegate.h */,
-				B3CC213A1CDC845500A41E56 /* AppDelegate.m */,
+				B3CC21401CDC8CC200A41E56 /* Controller */,
+				B3CC21411CDC8CC200A41E56 /* Other */,
+				B3CC21461CDC8CC200A41E56 /* Xib */,
+				B3CC21441CDC8CC200A41E56 /* ViewController.h */,
+				B3CC21451CDC8CC200A41E56 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3CC21401CDC8CC200A41E56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC214F1CDC8CF100A41E56 /* JSLoginViewController.h */,
+				B3CC21501CDC8CF100A41E56 /* JSLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3CC21411CDC8CC200A41E56 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC21421CDC8CC200A41E56 /* AppDelegate.h */,
+				B3CC21431CDC8CC200A41E56 /* AppDelegate.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		B3CC213B1CDC845500A41E56 /* Xib */ = {
+		B3CC21461CDC8CC200A41E56 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				B3CC212A1CDC841500A41E56 /* Main.storyboard */,
-				B3CC212F1CDC841500A41E56 /* LaunchScreen.storyboard */,
+				B3CC21471CDC8CC200A41E56 /* LaunchScreen.storyboard */,
+				B3CC21481CDC8CC200A41E56 /* Login.storyboard */,
+				B3CC21491CDC8CC200A41E56 /* Main.storyboard */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -148,6 +172,7 @@
 		B3CC21161CDC841500A41E56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = leo;
 				TargetAttributes = {
@@ -179,9 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CC21311CDC841500A41E56 /* LaunchScreen.storyboard in Resources */,
 				B3CC212E1CDC841500A41E56 /* Assets.xcassets in Resources */,
-				B3CC212C1CDC841500A41E56 /* Main.storyboard in Resources */,
+				B3CC214C1CDC8CC200A41E56 /* LaunchScreen.storyboard in Resources */,
+				B3CC214D1CDC8CC200A41E56 /* Login.storyboard in Resources */,
+				B3CC214E1CDC8CC200A41E56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,34 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3CC21291CDC841500A41E56 /* ViewController.m in Sources */,
+				B3CC214B1CDC8CC200A41E56 /* ViewController.m in Sources */,
+				B3CC214A1CDC8CC200A41E56 /* AppDelegate.m in Sources */,
 				B3CC21231CDC841500A41E56 /* main.m in Sources */,
-				B3CC213C1CDC845500A41E56 /* AppDelegate.m in Sources */,
+				B3CC21511CDC8CF100A41E56 /* JSLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B3CC212A1CDC841500A41E56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3CC212B1CDC841500A41E56 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		B3CC212F1CDC841500A41E56 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3CC21301CDC841500A41E56 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B3CC21331CDC841500A41E56 /* Debug */ = {
